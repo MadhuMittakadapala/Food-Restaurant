@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#navbarNav {
+    padding: 0px 40px;
+    font-weight: 600;
+    margin: 0px 10px 10px 20px;
+}
+
+
+.menu-items img{
+    border-radius: 20px;
+    
+}
+video{
+    border-radius: 20px;
+}
+.chefs-social-links i {
+    cursor: pointer;
+    
+
+}
+.chefs-social-links i:hover{
+    color: rgb(19, 147, 183);
+    font-size: 24px;
+    
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+
+
+
+
+/* footer */
+.footer{
+    background: rgb(29, 29, 29);
+    color: white;
+    /* height: 40rem; */
+    height: 100vh;
+    margin-top: 2rem;
+    font-family: "Nunito";
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.footer-headings{
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    padding: 0px 0px 0px 0px;
+}
+.footer p{
+    font-size: 16px;
+    
+    color: rgb(164, 158, 158);
+    color: orange;
+
+
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: rgb(164, 158, 158);
+    color: orange;
+    padding: 10px 0px;
+
+    
+    
+
+
+}
+.footer-links a:hover{
+    color: white;
+}
+i{
+    cursor: pointer;
+    color: black;
+}
+.footer-links i{
+    color: #fff;
+    color: orange;
+
+    /* font-size: 22px; */
+    padding-right: 20px;
+}
+.footer-social-links i{
+    background: rgb(41, 36, 36);
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 50%;
+    color: orange;
+    font-size: 22px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    justify-items: center;
+}
+.footer-social-links i:hover{
+    color: rgb(0, 179, 255);
+}
+.links-div{
+    padding: 0px opx opx 80px;
+}
+.footer-links ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 8px 0px;
+}
+.footer-links i{
+    font-size: 14px;
+    
+    
+}
+
+.copy-right{
+    text-align: center;
+    padding-top: 5rem;
+    
+}

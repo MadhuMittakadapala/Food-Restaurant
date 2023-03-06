@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant</title>
+    <link rel="stylesheet" href="./style.css">
+
+
+      <!-- for bootstrap add link -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+      <link rel="stylesheet" href="./style.css">
+  <!-- for icons add this link fontawsome here -->
+      <script src="https://kit.fontawesome.com/e52049d227.js" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+      <!-- navbar section starts here -->
+
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Delicious <span class="text-warning">Restaurant</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">specials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">chefs</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link " href="#">Menus</a>
+              </li> -->
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      menus
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="#">veg</a></li>
+                      <li><a class="dropdown-item" href="#">non veg</a></li>
+                      <li><a class="dropdown-item" href="#">chicken biryani</a></li>
+                      <li><a class="dropdown-item" href="#">chicken 65</a></li>
+                      <li><a class="dropdown-item" href="#">chicken curry</a></li>
+
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link" href="">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- navbar section ends here -->
+
+       <!-- hero banner section starts here -->
+       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/ali-inay-y3aP9oo9Pjc-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/louis-hansel-rheOvfxOlOA-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/robin-stickel-tzl1UCXg5Es-unsplash - Copy.jpg" class="d-block w-100" alt="...">
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        
+      </div>
+         
+      <!-- hero banner section ends here -->
+
+       <!-- specials section starts here -->
+     <div class="specials p-5 " id="specials">
+        <div class="container">
+            <div class="grid">
+                <div class="row mt-5">
+                    <div class="col-md-4 text-center">
+                        <i class="fa-solid fa-hand-holding-heart fa-4x text-warning"></i>
+                        <h2 class="my-4 fw-bold">HandPicked Items</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam labore nostrum odio molestias enim non ipsam similique sapiente exercitationem corrupti, impedit aliquam deserunt odit et aliquid corporis, totam ut suscipit!</p>
+    
+    
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <i class="fa-solid fa-heart fa-4x text-warning"></i>
+                        <h2 class="my-4 fw-bold">Made With Love </h2>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, dolor rem ducimus doloribus hic quod aliquam iure illum nostrum ullam quae non quasi repellendus ut perspiciatis eos a nam obcaecati!</p>
+
+    
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <i class="fa-solid fa-hand-point-up fa-4x text-warning"></i>
+                        <h2 class="my-4 fw-bold">Delicious Food</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio voluptatem, officiis consectetur debitis, accusamus molestiae voluptas fugiat sapiente magni beatae modi corporis eos! Est saepe pariatur esse laudantium hic neque.</p>
+    
+                    </div>
+                </div>
+                
+
+            </div>
+           
+
+
+        </div>
+
+     </div>
+     
+
+     <!-- specials section ends here -->
+
+      <!-- video section starts here-->
+      <div class="container text-center py-5">
+        <div class="row">
+          <h5 class="text-dark fw-bold">Our Featured Food Menus</h5>
+          <p>Who are in extremely love with eco friendly system.</p>
+        </div>
+       </div>
+       <!-- video section ends here-->
+        <!-- menu videos section starts -->
+     <section>
+        <div class="menu-items bg-dark p-5">
+           <div class="container ">
+               <div class="row text-white align-item-center">
+                   <div class="col-6 " >
+                       <h3 class="my-4">Avacado <span class="text-warning">Mixup</span></h3>
+                       <p class= py-4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aspernatur eaque fugit ea dolore praesentium aliquam minima repellendus, corporis reprehenderit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, asperiores officiis est voluptatibus tempora voluptate dolor beatae magnam assumenda qui.</p>
+                       
+       
+                   </div>
+                   <div class="col-6">
+                       <img src="./images/robin-stickel-tzl1UCXg5Es-unsplash.jpg" alt="" class="img-fluid">
+       
+                   </div>
+               </div>
+            </div>
+   
+        </div>
+        <div class="menu-items bg-dark p-5 my-4">
+         <div class="container ">
+             <div class="row text-white align-item-center">
+                 <div class="col-6">
+                     <!-- <img src="./images/ali-inay-y3aP9oo9Pjc-unsplash.jpg" alt="" class="img-fluid"> -->
+                     <video src="./videos/Restaurant Promotional Video (Short edit) (360p).mp4" type="video/mp4" controls class="img-fluid"></video>
+   
+                 </div>
+                 <div class="col-6 " >
+                     <h3 class="my-4">Avacado <span class="text-warning">Mixup</span></h3>
+                     <p class= py-4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aspernatur eaque fugit ea dolore praesentium aliquam minima repellendus, corporis reprehenderit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, asperiores officiis est voluptatibus tempora voluptate dolor beatae magnam assumenda qui.</p>
+                     
+     
+                 </div>
+               
+             </div>
+          </div>
+   
+      </div>
+   
+      <div class="menu-items bg-dark p-5 my-4">
+       <div class="container ">
+           <div class="row text-white align-item-center">
+            
+               <div class="col-6 " >
+                   <h3 class="my-4">Avacado <span class="text-warning">Mixup</span></h3>
+                   <p class= py-4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aspernatur eaque fugit ea dolore praesentium aliquam minima repellendus, corporis reprehenderit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, asperiores officiis est voluptatibus tempora voluptate dolor beatae magnam assumenda qui.</p>
+                   
+   
+               </div>
+               <div class="col-6">
+                 <img src="./images/louis-hansel-rheOvfxOlOA-unsplash.jpg" alt="" class="img-fluid">
+             </div>
+             
+           </div>
+   
+        </div>
+   
+    </div>
+   
+    <div class="menu-items bg-dark p-5 my-4">
+     <div class="container-fluid ">
+         <div class="row text-white align-item-center">
+             <div class="col-6">
+                 <!-- <img src="./images/robin-stickel-tzl1UCXg5Es-unsplash.jpg" alt="" class="img-fluid"> --> 
+   
+                 <!-- for video -->
+                <video src="./videos/Restaurant Promotional Video (Short edit) (360p).mp4" type="video/mp4" controls class="img-fluid"></video>
+   
+             </div>
+             <div class="col-6 px-4 py-4" >
+                 <h3 class="my-4">Avacado <span class="text-warning">Mixup</span></h3>
+                 <p class="py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aspernatur eaque fugit ea dolore praesentium aliquam minima repellendus, corporis reprehenderit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, asperiores officiis est voluptatibus tempora voluptate dolor beatae magnam assumenda qui.</p>
+                 
+   
+             </div>
+          
+   
+           
+         </div>
+   
+      </div>
+      
+      
+    </div>
+   </section>
+   
+      
+     
+  <!-- menu videos section ends  -->
+
+   <!-- most popular section starts here-->
+   <div class="container text-center py-5">
+    <div class="row">
+      <h5 class="text-dark fw-bold">Most Popular Chefs</h5>
+      <p>Who are in extremely love with eco friendly system.</p>
+    </div>
+   </div>
+   <!-- most popular section ends here-->
+
+   <!-- chefs section -->
+   <section class="chefs-section p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card my-2" style="width: 16rem;">
+            <img src="./images/chef-1.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Aleena</h3>
+              <h5 class="text-muted">Master Chef</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-warning">See More</a>
+              <div class="chefs-social-links d-flex py-4 justify-content-around">
+                <i class="fa-brands fa-facebook-f fa-2x"></i>
+                <i class="fa-brands fa-twitter fa-2x"></i>
+                <i class="fa-brands fa-youtube fa-2x"></i>
+                <i class="fa-brands fa-instagram fa-2x"></i>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-md-3">
+          <div class="card my-2" style="width: 16rem;">
+            <img src="./images/chef-2.jpg" class="card-img-top img-fluid " alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Ranveer Singh</h3>
+              <h5 class="text-muted">Master Chef</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-warning">See More</a>
+              <div class="chefs-social-links d-flex py-4 justify-content-around">
+                <i class="fa-brands fa-facebook-f fa-2x"></i>
+                <i class="fa-brands fa-twitter fa-2x"></i>
+                <i class="fa-brands fa-youtube fa-2x"></i>
+                <i class="fa-brands fa-instagram fa-2x"></i>
+
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+        <div class="col-md-3">
+          <div class="card my-2" style="width: 16rem; ">
+            <img src="./images/chef-3.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Michael Niwan</h3>
+              <h5 class="text-muted">Master Chef</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-warning">See More</a>
+              <div class="chefs-social-links d-flex py-4 justify-content-around">
+                <i class="fa-brands fa-facebook-f fa-2x"></i>
+                <i class="fa-brands fa-twitter fa-2x"></i>
+                <i class="fa-brands fa-youtube fa-2x"></i>
+                <i class="fa-brands fa-instagram fa-2x"></i>
+
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-3 ">
+          <div class="card my-2" style="width: 16rem; ">
+            <img src="./images/chef-6 dahiana.jpg" class="card-img-top img-fluid" alt="..." >
+            <div class="card-body">
+              <h3 class="card-title">dahiana</h3>
+              <h5 class="text-muted">Master Chef</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-warning">See More</a>
+              <div class="chefs-social-links d-flex py-4 justify-content-around">
+                <i class="fa-brands fa-facebook-f fa-2x"></i>
+                <i class="fa-brands fa-twitter fa-2x"></i>
+                <i class="fa-brands fa-youtube fa-2x"></i>
+                <i class="fa-brands fa-instagram fa-2x"></i>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+     </div>
+     <!-- chefs section -->
+
+   </section>
+
+   <!-- top rated dishes section starts here-->
+     
+     <!-- most popular section starts here-->
+     <div class="container text-center py-5">
+        <div class="row">
+          <h5 class="text-dark fw-bold">Our Top Rated Dishes</h5>
+          <p>Who are in extremely love with eco friendly system.</p>
+        </div>
+       </div>
+       <!-- most popular section ends here-->
+
+       <section class="topRate-dishes p-5">
+        <div class="container">
+          <div class="row ">
+            <div class="col-md-4 ">
+              <div class="card my-2" style="width: 300px;">
+                <img src="./images/d1.jpg.webp" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title text-warning">BREAD FRUIT CHEESE SANDWICH</h3>
+                  <p class="card-text text-muted">inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.</p>
+                
+                 
+                </div>
+              </div>
+            </div>
+              <div class="col-md-4">
+                <div class="card my-2" style="width: 300px;" >
+                  <img src="./images/d2.jpg.webp" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h3 class="card-title text-warning">BEEF CUTLET WITH SPRING ONION</h3>
+                    <p class="card-text text-muted">inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.</p>
+                   
+                   
+                  </div>
+                </div>
+              </div>
+                <div class="col-md-4">
+                  <div class="card my-2" style="width: 300px;">
+                    <img src="./images/d3.jpg.webp" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title text-warning">MEAT WITH SAUCE & VEGETABLES</h3>
+                      <p class="card-text text-muted">inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.</p>
+                      
+                     
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+       </section>
+
+
+        <!-- top rated dishes section ends here -->
+
+      <!-- most popular section starts here-->
+      <div class="container text-center py-5">
+        <div class="row">
+          <h5 class="text-dark fw-bold">Contact us</h5>
+          <p>Who are in extremely love with eco friendly system.</p>
+        </div>
+       </div>
+       <!-- most popular section ends here-->
+
+
+     <!-- for contact section starts here -->
+     <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="./images/ali-inay-y3aP9oo9Pjc-unsplash.jpg" alt="" class="img-fluid">
+
+          </div>
+          <div class="col-sm-8">
+            <form>
+              <fieldset>
+                <legend>Contact us about more deatails</legend>
+                <div class="mb-3">
+                  <label for="disabledTextInput" class="form-label">Enter Your Full Name</label>
+                  <input type="text" id="disabledTextInput" class="form-control" placeholder="enter your full name">
+                </div>
+              
+                <div class="mb-3">
+                  <label for="disabledTextInput" class="form-label">Enter Your Mobile Number</label>
+                  <input type="text" id="disabledTextInput" class="form-control" placeholder="enter your mobile number">
+                </div>
+              
+                <div class="mb-3">
+                  <label for="disabledTextInput" class="form-label">Enter Your Email Address</label>
+                  <input type="text" id="disabledTextInput" class="form-control" placeholder="enter your email address">
+                </div>
+              
+                <div class="mb-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" >
+                    <label class="form-check-label" for="disabledFieldsetCheck">
+                      Can't check this
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-warning">Submit</button>
+              </fieldset>
+            </form>
+
+          </div>
+        </div>
+      </div>
+     </section>
+     <!-- for contact section ends here -->
+<!-- footer section starts here -->
+<div class="container-fluid footer">
+    <div class="container">
+        <div class="row ">
+            <div class="col-md">
+                <h4 class="footer-headings">Delicious Restaurant</h4>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <p class="footer-social-links">
+                    <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram"></i></a></p>
+
+            </div>
+            <div class="col-md">
+                <div class="links-div" style="padding-left: 40px;">
+                <h4 class="footer-headings">List Menus</h4>
+                <div class="footer-links">
+                    <a href="#">Home</a><br>
+                    <a href="#">About us</a><br>
+                    <a href="#">Services</a><br>
+                    <a href="#">Specials</a><br>
+                    <a href="#">Pricing</a><br>
+                    <a href="#">Chefs </a><br>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+
+
+            </div>
+            <div class="col-md " >
+                <h4 class="footer-headings">Services</h4>
+                <div class="footer-links">
+                    <a href="#">Cooking Perfect Fried Rice in minutes</a><br>
+                    <a href="#">Secret of making Heart Shaped eggs</a><br>
+                    <a href="#">Business Strategy</a><br>
+                    <a href="#">Data Analysis</a><br>
+                    <a href="#">Graphic Design</a>
+                  
+                </div>
+
+
+            </div>
+            <div class="col-md">
+                <h4 class="footer-headings">Have a Questions?</h4>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i>
+                            <span> Fake St. Mountain View, </span>
+                            <span style="padding-left: 22px;">San Francisco, California,</span>
+                            <span style="margin-left: 22px;"> USA</span></a></li>
+                        <li><a href="#"><span ><i class="fa-solid fa-phone"></i></span>+2 392 3929 210</a></li>
+                        <li><a href="#"><span ><i class="fa-solid fa-envelope"></i>info@yourdomain.com</span></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            
+            <div class="copy-right">
+                <p>Copyright ©2022 All rights reserved  | This template is made with  by Delicious Restaurant </p>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+   <!-- footer section ends here -->
+
+
+    <!-- for bootstrap add this links js and jquery -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+  
+  
+
+</body>
+</html>
